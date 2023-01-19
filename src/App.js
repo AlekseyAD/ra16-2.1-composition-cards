@@ -21,11 +21,8 @@ export default function App() {
           Some quick example text to build on the card title and make up the
           bulk of the card's content.
         </p>
-        <a href="#1" className="card-link">
-          Card link
-        </a>
-        <a href="#2" className="card-link">
-          Another link
+        <a href="#2" className="btn btn-primary">
+          Go somewhere
         </a>
       </Cards>
     </div>

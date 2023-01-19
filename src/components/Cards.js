@@ -4,10 +4,10 @@ export default function Cards(props) {
   const image = props.image;
   return (
     <div className="cards">
-    <div className="card">
-      {image && <img src={image} alt="card" />}
-      <div className="card-body">{props.children}</div>
-    </div>
+      <div className="card">
+        {image && <img src={image} alt="card" />}
+        <div className="card-body">{props.children}</div>
+      </div>
     </div>
   );
 }
